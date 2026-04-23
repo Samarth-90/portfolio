@@ -1,0 +1,492 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Mane | Cinematic Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Samarth Mane, a passionate Computer Science student and Full-Stack Developer.">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- GSAP for High-End Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Premium Background Effects -->
+    <div class="grain-overlay"></div>
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo" aria-label="Samarth Mane logo">
+                    <span class="logo-mark">SM</span>
+                    <span class="logo-name">Samarth Mane</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <div class="hero-top-links">
+                            <span class="hero-section-label">Who I am</span>
+                        </div>
+                        <h1 class="reveal-text">Building Web Interfaces &amp; CSE Student</h1>
+                        <p class="hero-lead reveal-text">I am currently pursuing my S.Y. B. Tech in Computer Science and
+                            Engineering at Rajarambapu Institute of Technology. I enjoy building clean, user-friendly
+                            interfaces and explore how backend systems work.</p>
+                        <p class="hero-lead reveal-text">I specialize in crafting responsive web experiences using
+                            Tailwind CSS, modern JavaScript, and building robust applications with Java Swing and MySQL.
+                        </p>
+
+                        <div class="hero-info-cards">
+                            <div class="hero-card">
+                                <div class="hero-card-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div>
+                                    <strong>Education</strong>
+                                    <p>S.Y. B. Tech (CSE) - RIT</p>
+                                </div>
+                            </div>
+                            <div class="hero-card">
+                                <div class="hero-card-icon"><i class="fas fa-id-card"></i></div>
+                                <div>
+                                    <strong>PRN</strong>
+                                    <p>2403140 (Batch 2024-28)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="reveal-wrapper">
+                            <img src="profile.jpg" alt="Samarth Mane" id="hero-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Stats Section (Bento Box) -->
+        <section id="about">
+            <div class="container">
+                <div class="bento-grid">
+                    <div class="bento-item bento-3"
+                        style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                        <span style="font-size: 3rem; font-weight: 800;" class="gradient-text">2+</span>
+                        <p>Years of Learning</p>
+                    </div>
+
+                    <div class="bento-item bento-4"
+                        style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                        <span style="font-size: 3rem; font-weight: 800;" class="gradient-text">15+</span>
+                        <p>Hackathon participations</p>
+                    </div>
+
+                </div>
+
+                <div class="skills-showcase">
+                    <h3 class="skills-showcase-title">What I can do</h3>
+                    <p class="skills-heading">Technical Skills</p>
+                    <div class="skills-groups-modern" aria-label="Technical Skills">
+                        <button class="skill-btn" type="button">
+                            <i class="fab fa-html5 skill-icon skill-icon--html" aria-hidden="true"></i>
+                            <span>HTML5 &amp; CSS3</span>
+                        </button>
+                        <button class="skill-btn" type="button">
+                            <i class="fab fa-figma skill-icon skill-icon--figma" aria-hidden="true"></i>
+                            <span>Figma Design</span>
+                        </button>
+                        <button class="skill-btn" type="button">
+                            <i class="fab fa-java skill-icon skill-icon--java" aria-hidden="true"></i>
+                            <span>Java Programming</span>
+                        </button>
+                        <button class="skill-btn" type="button">
+                            <i class="fas fa-code skill-icon skill-icon--c" aria-hidden="true"></i>
+                            <span>C Programming</span>
+                        </button>
+                        <button class="skill-btn" type="button">
+                            <i class="fas fa-network-wired skill-icon skill-icon--network" aria-hidden="true"></i>
+                            <span>Networking Basics</span>
+                        </button>
+                        <button class="skill-btn" type="button">
+                            <i class="fas fa-database skill-icon skill-icon--mysql" aria-hidden="true"></i>
+                            <span>MySQL &amp; JDBC</span>
+                        </button>
+                        <button class="skill-btn" type="button">
+                            <i class="fas fa-arrow-trend-up skill-icon skill-icon--data" aria-hidden="true"></i>
+                            <span>Acquiring Data</span>
+                        </button>
+                    </div>
+                    <p class="skills-other">Other Interests</p>
+                    <div class="gym-highlight">
+                        <p class="gym-highlight-label">
+                            <span class="gym-rat-logo" aria-hidden="true">
+                                <i class="fas fa-dumbbell"></i>
+                            </span>
+                            <span># GYM RAT</span>
+                        </p>
+                        <img src="gym.jpg" alt="Gym Rat" class="gym-highlight-photo">
+                    </div>
+                    <div class="book-highlight">
+                        <p class="book-highlight-title">
+                            <span class="book-reader-logo" aria-hidden="true">
+                                <i class="fas fa-book-open"></i>
+                            </span>
+                            <span># BOOK READER</span>
+                        </p>
+                        <p class="book-highlight-text">- The Power Of Subconscious Mind.</p>
+                    </div>
+                    <div class="gamer-highlight">
+                        <p class="gamer-highlight-title">
+                            <span class="unique-gamer-logo" aria-hidden="true">
+                                <i class="fas fa-gamepad"></i>
+                            </span>
+                            <span># UNIQUE GAMER</span>
+                        </p>
+                        <p class="gamer-highlight-text">- &#9733;Br&oslash;nt&oslash;_FF&#9733;</p>
+                        <p class="gamer-highlight-text">- Uid:-2785178632</p>
+                    </div>
+                    <div class="writer-highlight">
+                        <p class="writer-highlight-title">
+                            <span class="unknown-writer-logo" aria-hidden="true">
+                                <i class="fas fa-pen-nib"></i>
+                            </span>
+                            <span># UNKNOWN WRITER</span>
+                        </p>
+                        <div class="poem-container">
+                            <p class="writer-highlight-line">// Zindagi ek hi hai, inko ji le jara</p>
+                            <p class="writer-highlight-line">Lamahe hai bahut sare, inko savarale jara</p>
+                            <p class="writer-highlight-line">Khush to bahut hu zindagi main</p>
+                            <p class="writer-highlight-line">Agar tu hoti, to thoda waqt bat leta jara.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="projects-heading">My work</h2>
+                <div class="projects-stack">
+                    <div class="project-card">
+                        <div class="project-row">
+                            <div class="project-img-box">
+                                <div class="reveal-wrapper">
+                                    <div class="reveal-overlay"></div>
+                                    <div
+                                        style="height: 272px; display: flex; align-items: center; justify-content: center; background: #1a202c;">
+                                        <i class="fab fa-figma" style="font-size: 4.8rem; color: #F24E1E;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content-box">
+                                <span class="project-tag">UI/UX Design</span>
+                                <h3 class="project-title">Mess Hub Interface</h3>
+                                <p style="color: hsl(var(--text-secondary)); margin-bottom: 2rem;">Premium mobile
+                                    interface design for hostel mess management, focusing on accessibility and modern
+                                    aesthetics.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-row">
+                            <div class="project-img-box">
+                                <div class="reveal-wrapper">
+                                    <div class="reveal-overlay"></div>
+                                    <div
+                                        style="height: 272px; display: flex; align-items: center; justify-content: center; background: #0f172a;">
+                                        <i class="fas fa-hospital-user"
+                                            style="font-size: 4.8rem; color: hsl(var(--primary));"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content-box">
+                                <span class="project-tag">Backend & Networking</span>
+                                <h3 class="project-title">Hospital Management System</h3>
+                                <p style="color: hsl(var(--text-secondary)); margin-bottom: 2rem;">A robust Java Swing
+                                    application integrated with MySQL for seamless patient record management and
+                                    database connectivity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-container">
+
+                    <div class="contact-info-stack">
+                        <div class="contact-info-card">
+                            <div class="contact-card-top">
+                                <div class="contact-info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <p class="contact-label">Email</p>
+                            </div>
+                            <p class="contact-card-value">manesamath2111@gmail.com</p>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="contact-card-top">
+                                <div class="contact-info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <p class="contact-label">Location</p>
+                            </div>
+                            <p class="contact-card-value">Islampur, Maharashtra, India</p>
+                        </div>
+                    </div>
+
+                    <div
+                        style="background: var(--bg-card); padding: 4rem; border-radius: 3rem; border: 1px solid var(--glass-border);">
+                        <form id="contact-form">
+                            <div class="input-group">
+                                <input type="text" required>
+                                <span class="bar"></span>
+                                <label>Your Name</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" required>
+                                <span class="bar"></span>
+                                <label>Your Email</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea rows="4" required></textarea>
+                                <span class="bar"></span>
+                                <label>Your Message</label>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 4rem 0; text-align: center; border-top: 1px solid var(--glass-border);">
+        <div class="container">
+            <p style="color: hsl(var(--text-secondary));">&copy; 2026 Samarth Mane. Designed with cinematic precision.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Magnetic Buttons Logic
+        const magneticBtns = document.querySelectorAll('.btn-magnetic');
+        magneticBtns.forEach(btn => {
+            btn.addEventListener('mousemove', (e) => {
+                const rect = btn.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+                gsap.to(btn, { x: x * 0.3, y: y * 0.3, duration: 0.3 });
+            });
+            btn.addEventListener('mouseleave', () => {
+                gsap.to(btn, { x: 0, y: 0, duration: 0.5, ease: "elastic.out(1, 0.3)" });
+            });
+        });
+
+        // Magnetic Bento Items
+        const bentoItems = document.querySelectorAll('.bento-item');
+        bentoItems.forEach(item => {
+            item.addEventListener('mousemove', (e) => {
+                const rect = item.getBoundingClientRect();
+                const x = (e.clientX - rect.left - rect.width / 2) * 0.1;
+                const y = (e.clientY - rect.top - rect.height / 2) * 0.1;
+                gsap.to(item, { x: x, y: y, duration: 0.4, ease: "power2.out" });
+            });
+            item.addEventListener('mouseleave', () => {
+                gsap.to(item, { x: 0, y: 0, duration: 0.6, ease: "elastic.out(1, 0.3)" });
+            });
+        });
+
+        // GSAP Animations
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Hero reveal
+        gsap.to('.reveal-overlay', {
+            y: '-100%',
+            duration: 1.2,
+            ease: "power4.inOut",
+            stagger: 0.2,
+            scrollTrigger: {
+                trigger: '.reveal-wrapper',
+                start: 'top 80%'
+            }
+        });
+
+        gsap.from('.reveal-text', {
+            y: 50,
+            opacity: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.out"
+        });
+
+        // Bento Grid Items
+        gsap.from('.bento-item', {
+            y: 30,
+            opacity: 0,
+            duration: 0.8,
+            stagger: 0.1,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: '.bento-grid',
+                start: 'top 85%'
+            }
+        });
+
+        // Project Cards Parallax
+        document.querySelectorAll('.project-card').forEach(card => {
+            const baseScale = 1;
+
+            gsap.from(card, {
+                y: 100,
+                opacity: 0,
+                duration: 1.5,
+                ease: "expo.out",
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 90%'
+                }
+            });
+
+            const img = card.querySelector('.reveal-wrapper img');
+            if (img) {
+                gsap.to(img, {
+                    y: -50,
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: card,
+                        start: "top bottom",
+                        end: "bottom top",
+                        scrub: true
+                    }
+                });
+            }
+
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card, {
+                    scale: baseScale + 0.08,
+                    duration: 0.35,
+                    ease: "power2.out"
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card, {
+                    scale: baseScale,
+                    duration: 0.35,
+                    ease: "power2.out"
+                });
+            });
+        });
+
+        // Floating animation for blobs
+        gsap.to('.blob-1', { x: '50%', y: '20%', duration: 20, repeat: -1, yoyo: true, ease: "sine.inOut" });
+        gsap.to('.blob-2', { x: '-30%', y: '-10%', duration: 25, repeat: -1, yoyo: true, ease: "sine.inOut", delay: -5 });
+        gsap.to('.blob-3', { x: '20%', y: '-40%', duration: 15, repeat: -1, yoyo: true, ease: "sine.inOut", delay: -2 });
+    </script>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+</body>
+
+</html>
